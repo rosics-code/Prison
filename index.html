@@ -3,45 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prison Schedules</title>
+    <title>Prison Schedule PDF</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            padding: 20px;
+        html, body {
             margin: 0;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        a {
-            display: block;
-            margin: 15px auto;
-            text-align: center;
-            font-size: 1.2rem;
-            text-decoration: none;
-            color: #007bff;
-        }
-        a:hover {
-            text-decoration: underline;
+            padding: 0;
+            height: 100%;
         }
         iframe {
             width: 100%;
-            height: 90vh;
-            border: 1px solid #ccc;
-            margin-top: 20px;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <h1>Prison Schedule Viewer</h1>
-
-    <h2>Normal & Hurricane Schedule PDF</h2>
-
-    <p style="text-align:center;">
-        <a href="/PrisonSchedule.pdf" target="_blank">Download Prison Schedule PDF</a>
-    </p>
-
     <iframe src="/PrisonSchedule.pdf"></iframe>
 </body>
 </html>
